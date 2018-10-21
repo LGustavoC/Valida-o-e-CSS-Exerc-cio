@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style2.css"/>
+        <link rel="shortcut icon" href="https://claquetedepapel.files.wordpress.com/2013/06/four__tobias_eaton_by_xsavannahxx-d55as7t.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <meta charset="UTF-8"/>
+        <title>Validação e CSS</title>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="index.html" class="fa fa-home">Página Inicial</a></li>
+            <li><a href="primeiro.html">Primeiro</a></li>
+            <li><a href="segundo.html">Segundo</a></li>
+            <li><a href="terceiro.html">Terceiro</a></li>
+
+            <h1></h1>
+        </ul>
+
+        <div><h3>Letra A:</h3>
+             <h4>É possível sobrepor à aparência (estilo) definida em regras CSS anteriores,
+                mais genéricas, por regras mais específicas? Se possível, essa técnica tem
+                nome? Exemplifique.</h4>
+        </div>
+        <div><p><r>Sim</r>, se chama overriding. Por exemplo, um style que foi definido para 3 tags (h1,h2,h3), se fizer um
+            style <r>mais específico</r> (para a tag h3 por exemplo) ele ficará com ele.</p></div>
+
+        <div><h3>Letra B:</h3><h4>Caso definíssemos uma regra CSS mais geral para cabeçalhos de nível 1, 2 e
+            3, seguida de outra somente para o nível 1, como seria o comportamento do
+            navegador? Descreva os vários cenários possíveis e o comportamento do
+            navegador em cada uma delas.</h4></div>
+        <div><p>Como dito na letra A, um style <r>mais específico</r> será sempre usado pelo navegador
+             em vez de um mais geral.</p></div>
+
+        <div><h3>Letra C:</h3><h4>É sempre interessante otimizar o código CSS? Cite algumas vantagens.</h4></div>
+        <div><p><r>Sempre é melhor otimizar</r> pois evita duplicação de código, dando assim menos trabalho para o navegador
+            que ficaria lendo informação repetida.</p></div>
+
+        <div><h3>Letra D:</h3><h4>Defina herança em CSS. Utilize, também, imagens para ilustrar tais definições.</h4></div>
+        <img src="https://frank-ventura.neocities.org/Diagrama_Arbol/Arbol.PNG"/>
+        <div><p>Basicamente significa que <r>os filhos herdam de seus pais</r> ,ou seja, se eu definir uma característica
+        para um elemento que é mais geral (por exemplo body) as tags filhas vão herdar aquelas características (podendo
+        ser alteradas por argumentos mais específicos).</p></div>
+
+        <div><h3>Letra E:</h3><h4>Podemos sobrescrever características herdadas todas as vezes que
+            desejarmos deixá-la mais específica?</h4></div>
+        <div><p>Como dito na questão D,<r> sim</r>, pois os argumentos mais específicos são sempre levados mais em conta.</p></div>
+
+    </body>
+
+    <footer>
+    </footer>
+</html>
